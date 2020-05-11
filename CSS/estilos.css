@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');
+    background-size: auto 100vh;
+    font-family: 'Arial';  
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  li{
+    color: green;
+  }
+  a:link {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .menu li {
+    font-family: 'Montserrat';
+    list-style: none;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-evenly; 
+  }
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    text-align: center;
+  }
+  .site-title{
+    font-size: 30px;
+  }
+  
+  .site-subtitle {
+    font-size: 20px;
+    font-style: italic;
+  }
