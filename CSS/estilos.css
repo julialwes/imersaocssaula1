@@ -1,19 +1,19 @@
 body {
-  background-color: lightpink;
+  background-color: #FFB6C1;
   background: url('https://i.imgur.com/I8MC0Ri.png') no-repeat;
   background-size: auto 100vh;
   font-family: 'Montserrat';
 }
 
 li{
-  color: pink;
+  color: #FFC0CB;
 }
 a:link {
-  color: pink;
+  color: #FFC0CB	;
   text-decoration: none;
 }
 a:hover {
-  color: black;
+  color: #333;
   letter-spacing: 4px;
   text-decoration: none;
 }
@@ -42,7 +42,7 @@ a:hover {
   justify-content: space-evenly; 
 }
 .menu a:link{
-  color: pink;
+  color: #FFC0CB;
   letter-spacing: 2.5px;
   transition: color, letter-spacing 1s;
   -moz-transition: color, letter-spacing 1s;
