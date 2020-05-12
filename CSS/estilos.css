@@ -1,46 +1,97 @@
 body {
-    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');
-    background-size: auto 100vh;
-    font-family: 'Arial';  
-    height: 100vh;
-  }
-  
-  .menu {
-    background-color: white;
-  }
-  
-  li{
-    color: green;
-  }
-  a:link {
-    color: red;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: black;
-    text-decoration: underline;
-  }
-  
-  .menu li {
-    font-family: 'Montserrat';
-    list-style: none;
-  }
-  .menu ul {
-    display: flex;
-    justify-content: space-evenly; 
-  }
-  .site-subtitle,
-  .site-title {
-    color: whitesmoke;
-    font-family: 'Montserrat';
-    text-align: center;
-  }
-  .site-title{
-    font-size: 30px;
-  }
-  
-  .site-subtitle {
-    font-size: 20px;
-    font-style: italic;
-  }
+  background-color: lightpink;
+  background: url('https://i.imgur.com/I8MC0Ri.png') no-repeat;
+  background-size: auto 100vh;
+  font-family: 'Montserrat';
+}
+
+li{
+  color: pink;
+}
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+/* início do meu menu */
+.menu {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #e3c5c5;
+  letter-spacing: 2.5px;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-right: -7px;
+  scroll-margin-right:inherit;
+}
+
+.menu li {
+  font-family: 'Montserrat';
+  list-style: none;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-evenly; 
+}
+.menu a:link{
+  color: pink;
+  letter-spacing: 2.5px;
+  transition: color, letter-spacing 1s;
+  -moz-transition: color, letter-spacing 1s;
+  -webkit-transition: color, letter-spacing 1s;
+  -o-transition: color, letter-spacing 1s;
+}
+.menu a:hover{
+  color: lightblue;
+  letter-spacing: 4px;
+}
+/* fim do meu menu */
+
+.site-subtitle,
+.site-title {
+  color: #fff;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+.site-title{
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-shadow: 1px 1px 1px #999;
+}
+.site-subtitle {
+  font-size: 20px;
+  font-weight: light;
+  padding-bottom: 15px;
+}
+
+.title-1{
+  color: #fff;
+  text-shadow: 1px 1px 1px #999;
+  text-align: center;
+  font-family: 'montserrat';
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 370px;
+  padding: 10px;
+}
+
+.social-media a:link {
+  color: #fff;
+  font-size: 35px;
+  padding: 12px;
+}
+.social-media a:hover {
+  color: lightblue;
+  font-size: 35px;
+  padding: 12px;
+}
